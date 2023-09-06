@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/app.js" defer></script>
+
+  <!--CDN FONT-AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <title> Checkbox value</title>
+</head>
+<body>
+    <div class="container">
+      <p class="title">
+        choose your favorite language
+      </p>
+      <div class="input-box-wrapper">
+        <div class="box">
+          <input type="checkbox" value="javaScript" class="checkbox" id="javaScript">
+          <label for="javaScript">javaScript</label>
+        </div>
+        <div class="box">
+          <input type="checkbox" value="Python" class="checkbox" id="Python">
+          <label for="Python">Python</label>
+        </div>
+        <div class="box">
+          <input type="checkbox" value="C#" class="checkbox" id="C#">
+          <label for="C#">C#</label>
+        </div>
+        <div class="box">
+          <input type="checkbox" value="Java" class="checkbox" id="Java">
+          <label for="Java">Java</label>
+        </div>
+        <div class="box">
+          <input type="checkbox" value="Swift" class="checkbox" id="Swift">
+          <label for="Swift">Swift</label>
+        </div>
+      </div>
+
+      <div class="print-values">
+        <p id="valueList"></p>
+      </div>
+    </div>
+</body>
+</html>
